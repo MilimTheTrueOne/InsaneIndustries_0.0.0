@@ -1,0 +1,11 @@
+Tech: Insane iron
+Item + Entity: Missile turret
+Item: Power armor 3
+items: zircon, zirconium, salt, sand, NaOH, UT fuel, Thorium, UT fuek container
+Ores: salt, sand, chalk
+Recipes: carbon waste reprocessing, waste water distiling, waste-water-filtration, iron-blast-furnace-processing, iron-refinment
+    copper slurry production, copper melting, copper purification
+
+fluids: waste water,
+
+recipe category: machines, materials, ores, nuclear,  

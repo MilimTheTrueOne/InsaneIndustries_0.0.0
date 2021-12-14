@@ -1,0 +1,231 @@
+
+sourounded by '#': group of recepies
+
+sourounded by '/': subgroup
+
+started by '-': technology, for all below until new technology
+
+started by '+': machine
+
+######################
+## waste processing ##
+######################
+
+    //////////////////
+    // carbon waste //
+    //////////////////
+
+        - carbon waste reprocessing 
+
+        carbon waste + water [carbon waste reprocessing, filtration plant] -> 5% Coal + 95% waste water
+
+    /////////////////
+    // waste water // 
+    /////////////////
+
+        - waste water reprocessing
+
+        waste water [waste water distiling, distilery] -> 30% waste + 70% steam                                          # faster, no resource, MASSIVE power drain
+
+        waste water + filter [waste water filtration, filtration plant] -> 10% waste + 90% water                         # slower , some resource, near no power drain
+
+############################
+## general ore processing ##
+############################
+
+    //////////
+    // iron //
+    //////////
+
+        - advanced iron processing
+
+        10 iron ore + 100 water [Iron ore washing, washing plant] -> 10 pure iron ore + 200 waste water              # more gain from ore, waste water as output
+
+        pure iron ore + coke coal + chalk [iron ore blast furnace processing, blast furnace] -> liquid iron + waste      # more gain. more pain. 
+
+        liquid iron [iron casting: (diffrent iron parts possible), metal caster] -> (iron product)                       # liquid iron can be casted to diffrent basic iron parts
+
+        - advanced steel processing
+
+        liquid iron + coke coal [iron refinement, liquid metal furnace] -> liquid steel                                  # better steel processing
+
+        liquid steel [steel casting: (diffrent steel parts possible), metal caster] -> (steel product)                   # iquid steel can be casted to diffrent basic steel parts
+
+    ////////////
+    // copper //
+    ////////////
+
+        - copper processing
+
+        copper ore [copper ore crushing, assembler] -> copper ore dust
+
+        copper ore dust + water [copper slurry production, assembler] -> copper ore slurry                               # liquid slurry
+
+        copper ore slurry [froth floatation, froth floatation tank] -> copper concentrate + waste water
+
+        copper concentrate [copper smelting, melter] -> copper matte                                                     # liquid copper matte
+
+        copper matte [copper purification, liquid metal furnace] -> liquid blister copper                                       # solid copper
+
+        liquid blister copper [copper casting, metal caster] -> blister copper
+
+        blister copper [blister copper processing, anode furnace] -> copper plates + raw metal chunks                    # done, you have copper now, also raw metal chunks wich can be refined to some metals
+
+    ///////////////
+    // zirconium //
+    ///////////////
+
+        stone + water [zircon extraction, assembler] -> waste water + zircon
+
+        zircon + clorine [ziron refinement, chemical plant] -> zirconium 
+
+    //////////
+    // salt //
+    //////////
+
+        sea water [salt distiling, distilery] -> salt + steam 
+
+    /////////////
+    // thorium //
+    /////////////
+
+########################
+## nuclear processing ##
+########################
+
+    _ 100 uranium ore [uranium enrichment, centrifuge] -> 99 U-238 + 1 U-235
+
+    90% Thorium + 10% U-235 + NT fuel container [UT fuel production, assembler] -> UT fuel
+
+    water [heavy water enrichment, filtration plant] -> heavy water
+
+    stone + water [filtration plant] -> trithium + waste water
+
+
+
+
+###############
+## materials ##
+###############
+
+    - advanced iron processing
+
+    coal [coke coal production, furnace] -> coke coal                                                                # coke coal for steel processing
+
+#########
+# parts #
+#########
+
+    iron rod + iron plate + machine oil [rotary parts, assembler] -> rotary parts
+
+    cooper plate + aluminium plates [cooling plating, assembler] -> cooling plating
+
+    iron plate + iron rod + cooling plating [empty cooling unit, assembler] -> empty cooling unit
+
+    empty cooling unit + water [cooling unit filling, assembler] -> cooling unit
+
+    iron plate + steel plates + zirconium plate [reactor platings, assembler] -> HHRRP
+
+    iron plate + rotary parts + mechanical parts + HHRRP [reactor casing, assembler] reactor casing
+
+    zirconium [zirconium plates, assembler] -> zirconium plates
+
+
+    liquid steel [metal caster] -> steel pipe
+
+    steel pipe + basic militaric circuit [assembler] -> rocket pipe
+
+#############
+# computers #
+#############
+
+    circuit board + micro chip [electronics assembler] -> cpu 
+
+    circuit board + micro chip [electronics assembler] -> gpu 
+
+    circuit board + ram chip [electronics assembler] -> ram 
+
+    circuit board + plastic + micro chip [electronics assembler]  -> main board
+
+    main board + ram + cpu + gpu + cooling unit [electronics assembler] -> computer
+    
+    main board + ram + cpu + gpu + cooling unit [electronics assembler] -> micro computer
+
+
+###########
+# weapons #
+###########
+
+    steel parts + universal protective shielding + rotary parts + cooling unit [assembler] -> turret base
+
+    turret base + rocket pipe + cooling unit + micro computer [assembler] -> rocket turret
+
+    turret base + steel pipe + cooling unit + computer + steel 
+
+    aluminium pipe + pipe + computer + cooling unit + missile explosivs [missile assembler] -> balistic missile 
+
+    aluminium pipe + pipe + computer + cooling unit + nuclear warhead + radiation shielding [missile assembler] -> nuclear missile 
+
+    aluminium pipe + pipe + computer + cooling unit + thermonuclear warhead + radiation shielding[missile assembler] -> thermonuclear missile 
+
+
+
+###########
+# liquids #
+###########
+
+    salt + water [clorine production, electrolysis plant] -> clorine + sodium
+
+    water [electrolysis, electrolysis plant] -> hydrogen + oxygen
+
+    heavy water [deutherium production, electrolysis plant] -> deutherium + oxygen
+
+############
+# machines #
+############
+
+    + crusher
+
+    + anode furnace
+
+    + melter
+
+    + liquid metal furnace
+
+    + froth floatation tank
+
+    + mixer
+
+    + crusher
+
+    + metal caster
+
+    + blast furnace
+
+    + washing plant
+
+    + distilery
+
+    + filtration plant
+
+    + electrolysis plant
+
+##############
+# generators #
+##############
+
+    + fusion reactor
+        ~ deutherium-trithium fuel -> 4/2 Helium + 100MJ heat
+
+    + LFTR                                                                                                           # Liquid fluoride thorium reactor
+        ~ refueld liquid flouride -> used liquid fluoride
+
+        + liquid flouride reprocessor turbine                                                                        # Hot liquid fluoride turbine
+            ~ used liquid fluoride + UT fuel -> refueld liquid fluoride + 80MW + UT nuclear waste
+
+    + natural gas generator                                                                                          # natural liquid gas
+        ~ natural gas -> 5MW
+
+    + waste burner
+        ~ waste + water -> steam
+        

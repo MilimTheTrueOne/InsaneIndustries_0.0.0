@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Lua",
+        "type": "shell",
+        "command": "/media/milim/D8E4AE65E4AE459A/steam/steamapps/common/Factorio/bin/x64/factorio",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
