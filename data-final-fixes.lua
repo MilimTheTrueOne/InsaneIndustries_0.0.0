@@ -8,3 +8,4 @@ data.raw.recipe["military-science-pack"].ingredients = {{type="item", name="iron
 data.raw.recipe["production-science-pack"].ingredients = {{type="item", name="basic-machine-parts", amount=2}, {type="item", name="copper-coil", amount=1}, {type="item", name="iron-gear-wheel", amount=3}}
 
 data.raw.recipe["assembling-machine-1"].ingredients = {{type="item", name="basic-machine-parts", amount=1}, {type="item", name="iron-plate", amount=3}}
+

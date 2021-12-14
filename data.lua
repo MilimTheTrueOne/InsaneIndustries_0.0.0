@@ -21,8 +21,9 @@ require("prototypes.recipies.waste")
 require("prototypes.recipies.ore-refinment")
 require("prototypes.recipies.electrolysis")
 
-require("prototypes.fluids")
-require("prototypes.gas")
+require("prototypes.chemistry.fluids")
+require("prototypes.chemistry.gas")
+require("prototypes.chemistry.base")
 
 require("prototypes.science.technology")
 
