@@ -2,7 +2,7 @@ data:extend
 {
     {
         type = "fluid",
-        name = "clorine",
+        name = "chlorine",
         base_color = {r=0, g=255, b=0, a=0},
         default_temperature = 21.0,
         flow_color = {r=0, g=255, b=0, a=0},

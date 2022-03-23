@@ -27,14 +27,14 @@ data:extend
     ,
     {
         type= "recipe",
-        name= "clorine",
+        name= "chlorine",
 
         icons = {icon={icon="__base__/graphics/icons/fluid/steam.png", tint={r=0, g=255, b=0, a=255}}},
         icon_size = 64,
 
         ingredients = {
             {type="fluid", name="water", amount=200},
-            {type="item", name="salt", amount=100}
+            {type="item", name="salt", amount=10}
 
         },
         energy_required = 0.25,
@@ -42,7 +42,7 @@ data:extend
         category = "electrolysis",
 
         results= {
-            {type="fluid", name="clorine", amount=100},
+            {type="fluid", name="chlorine", amount=100},
             {type="fluid", name="hydrogen", amount=100},
             {type="item", name="NaOH", amount=1},
         },

@@ -40,7 +40,7 @@ data:extend {
 
         ingredients = {
             {type="item", name="zircon", amount=10},
-            {type="fluid", name="clorine", amount=75}
+            {type="fluid", name="chlorine", amount=75}
         },
 
         results = {
