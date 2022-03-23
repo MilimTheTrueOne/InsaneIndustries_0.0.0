@@ -1,2 +1,4 @@
-# InsaneIndustries_0.0.0
- InsaneIndustries Factorio mod
+# InsaneIndustries
+InsaneIndustries is a Factorio mod 
+
+It aims at making the game more complicated

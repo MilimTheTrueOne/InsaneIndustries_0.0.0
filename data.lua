@@ -29,6 +29,8 @@ require("prototypes.chemistry.base")
 
 require("prototypes.science.technology")
 require("prototypes.science.chem-weapons-tech")
+require("prototypes.science.chemistry")
+
 require("prototypes.subgroups")
 
 require("prototypes.machines.washing-plant")
