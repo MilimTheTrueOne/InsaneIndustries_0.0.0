@@ -9,8 +9,5 @@ data:extend{
         icons = {icon={icon="__base__/graphics/icons/fluid/water.png", tint={r=1, g=1, b=1, a=0}}},
         icon_size = 64
     },
-    {
-        type = "item",
-        name = "BaOH2"
-    }
+
 }

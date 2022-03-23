@@ -9,3 +9,4 @@ data.raw.recipe["production-science-pack"].ingredients = {{type="item", name="ba
 
 data.raw.recipe["assembling-machine-1"].ingredients = {{type="item", name="basic-machine-parts", amount=1}, {type="item", name="iron-plate", amount=3}}
 
+data.raw.ammo["atomic-bomb"].ammo_type.cooldown_modifier = 1
